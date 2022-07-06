@@ -4,48 +4,136 @@
             font-family: 'Inter', sans-serif;
         }
 
-.top_division{
-    background-image: url("images/donation13.jpg");
-    background-size: cover;
-    height: 720px;
-    background-repeat: no-repeat;
-}
+    .top_division{
+        background-image: url("images/donation13.jpg");
+        background-size: cover;
+        height: 720px;
+        background-repeat: no-repeat;
+    }
 
-.top_division_inside {
-    background-color: rgba(49, 41, 41, 0.301);
-    background-size: cover;
-    height: 720px;
-    background-repeat: no-repeat;
-    padding: 10%;
-}
+    .top_division_inside {
+        background-color: rgba(49, 41, 41, 0.301);
+        background-size: cover;
+        height: 720px;
+        background-repeat: no-repeat;
+        padding: 10%;
+        text-align: center;
+    }
 
-.top_division_inside_text_1 {
-    text-align: center;
-    color: rgb(206, 206, 206);
-    font-size: 70px;
-    font-weight: 900;
-}
+    .top_division_inside_text_1 {
+        text-align: center;
+        color: rgb(206, 206, 206);
+        font-size: 70px;
+        font-weight: 900;
+    }
 
-.top_division_inside_text_2 {
-    text-align: center;
-    color: rgb(206, 206, 206);
-    font-size: 20px;
-    font-weight: 400;
-}
+    .top_division_inside_text_2 {
+        text-align: center;
+        color: rgb(206, 206, 206);
+        font-size: 20px;
+        font-weight: 400;
+    }
 
-.top_division_inside_text_3 {
-    padding: 10px;
+    .top_division_inside_text_3 {
+        padding: 10px;
+        border-radius: 6px;
+        border: none;
+        box-shadow:10px 10px 20px rgb(24, 23, 23) ;
+        background-color: rgb(228, 61, 83);
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: 400;
+        margin: 5px;
+    }
+
+    .second_division{
+        padding: 5%;
+        background-color: rgba(255, 255, 255, 1.0);
+        text-align: center;
+    }
+
+    .second_division_p1{
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 38px;
+        font-weight: 800;
+    }
+
+    .second_division_p2 {
+        text-align: center;
+        color: rgb(100, 100, 100);
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .second_division_p3 {
+        display: flex;
+        padding: 5%;
+        justify-content: center;
+        text-align: center;
+    }
+
+.second_division_p3_selected {
+    width: 120px;
     border-radius: 6px;
     border: none;
-    box-shadow:10px 10px 15px black ;
-    background-color: rgb(228, 61, 83);
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 400;
-    position: absolute;
-    top: 90%;
-    left: 45%;
+    background-color: rgb(248, 248, 248);
+    color: rgb(107, 107, 107);
+    font-size: 28px;
+    font-weight: 700;
+    margin: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
+.second_division_p3_unselected {
+    width: 120px;
+    border-radius: 6px;
+    border: 2px solid rgb(250, 78, 101);
+    background-color: rgb(247, 220, 227);
+    color: rgb(252, 102, 102);
+    font-size: 28px;
+    font-weight: 700;
+    margin: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.second_division_p4 {
+    padding: 6px;
+    width: 52%;
+    justify-content: center;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(226, 223, 223);
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    margin-bottom: 20px;
+}
+
+.second_division_p4::-webkit-input-placeholder{
+    color: rgb(203, 201, 206);
+}
+
+  .second_division_inside_text_4 {
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      box-shadow: 10px 10px 20px rgb(173, 168, 168);
+      background-color: rgb(228, 61, 83);
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      font-weight: 400;
+      margin: 5px;
+  }
+   .third_division {
+       padding: 10px;;
+       background-color: rgba(255, 255, 255, 1.0);
+       text-align: center;
+   }
+  
 
 
