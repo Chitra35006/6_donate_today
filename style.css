@@ -79,9 +79,9 @@
 
     .second_division_p2 {
         text-align: center;
-        color: rgb(100, 100, 100);
+        color: rgb(121, 121, 121);
         font-size: 18px;
-        font-weight: 300;
+        font-weight: 200;
     }
 
     .second_division_p3 {
@@ -157,9 +157,6 @@
         width: 300px;
         border-radius: 6px;
         background-color: rgb(247, 231, 235);
-        color: black;
-        font-size: 18px;
-        font-weight: 100;
         margin: 5px;
         margin-left: 160px;
         margin-right: 12px;
@@ -168,14 +165,12 @@
         padding-right: 10px;
         padding-top: 40px;
         padding-bottom: 40px;
+        
     }
     .third_division_p3_s2 {
         width: 300px;
         border-radius: 6px;
         background-color: rgb(231, 241, 247);
-        color: black;
-        font-size: 20px;
-        font-weight: 200;
         margin-top: 40px;
         margin-left: 15px;
         margin-right: 20px;
@@ -183,14 +178,12 @@
         padding-right: 10px;
         padding-top: 40px;
         padding-bottom: 40px;
+        
     }
     .third_division_p3_s3{
         width: 300px;
         border-radius: 6px;
         background-color: rgb(228, 255, 250);
-        color: black;
-        font-size: 20px;
-        font-weight: 200;
         margin-top: 40px;
         margin-left: 10px;
         margin-right: 150px;
@@ -242,8 +235,14 @@
     color: rgb(97, 151, 153);
     font-weight: 300;
     font-size: 20px;
-}
-
+    }
+    .text_color04{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 200;
+    color: rgb(151, 148, 148);
+    }
+   
 .fifth_division {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -278,7 +277,8 @@
     border: none;
     font-size: 16px;
     font-weight: 550;
-    background-color: rgb(197, 197, 197);
+    color: rgb(179, 179, 179);
+    background-color: rgb(224, 221, 221);
 }
 
 .fifth_division_p3_s2 {
